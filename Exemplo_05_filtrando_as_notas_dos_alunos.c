@@ -52,7 +52,7 @@ int main(void) {
       break;
 
     default:
-      printf("Entrada inválida!\n");
+      printf("Entrada invalida!\n");
       printf("Tente novamete:\n");
       break;
 
