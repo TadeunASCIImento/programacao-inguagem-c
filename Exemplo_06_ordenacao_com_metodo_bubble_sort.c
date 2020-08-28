@@ -18,18 +18,17 @@ int main(void)
 
 	printf("\nElementos depois da aplicação do método de ordenação.\n");
 		for(m = 0; m < TAM; m++){
-				for(i = 0; i< TAM-1; i++){//Quantidade de vezes necessárias.
-					 for(j = 0; j< TAM-1; j++){//cada elemento do array.
-					     //verifica se o elemento adjacente é maior.
-					 	   if(elementos[j] > elementos[j+1]){
-					 	   	  //variável auxíliar para troca.
-									k = elementos[j];
-					 	   	  elementos[j] = elementos[j+1];//troca
-					 	   	  //posiciona maior, mais ao fim.
-					 	   	  elementos[j+1] = k;
-								}
-					 }
-				}
-				printf(" %d",elementos[m]);
-			}
+		     for(i = 0; i< TAM-1; i++){//Quantidade de vezes necessárias.
+		         for(j = 0; j< TAM-1; j++){//cada elemento do array.
+		            //verifica se o elemento adjacente é maior.
+			    if(elementos[j] > elementos[j+1]){
+			    //variável auxíliar para troca.
+			    k = elementos[j];
+			    elementos[j] = elementos[j+1];//troca
+			    //posiciona maior, mais ao fim.
+			    elementos[j+1] = k;
+		            }
+	                 }
+                     }      printf(" %d",elementos[m]) 
+		}
 } 
