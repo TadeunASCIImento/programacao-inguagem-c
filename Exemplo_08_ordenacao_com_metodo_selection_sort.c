@@ -1,5 +1,5 @@
 /*
- Algorítimo de ordenação por seleção (Selection Sort).
+ Algorítmo de ordenação por seleção (Selection Sort).
 */
 #include  <stdio.h>
 
@@ -41,4 +41,3 @@ int main(void)
      }
 
 }
-   
