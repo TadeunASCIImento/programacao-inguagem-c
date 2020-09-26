@@ -1,7 +1,7 @@
 /* 
 	Atividade desenvolvida para disciplina de Estruturas de dados.	
 	
-	Métodos de ordenação, Bubble Sort, Selection Sort, Insertition Sort e Quick Sort.
+	Métodos de ordenação, Bubble Sort, Selection Sort, Insertion Sort e Quick Sort.
 	
 	Autor: Tadeu do Nascimento - RA: 2217202013  - Semestre: 7° - Período: Noturno	
 	
